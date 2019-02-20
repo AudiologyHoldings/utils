@@ -17,7 +17,7 @@
  * @package utils
  * @subpackage utils.controllers.components
  */
-class FormPreserverComponent extends Object {
+class FormPreserverComponent extends CakeObject {
 /**
  * Components that are required
  *

@@ -17,7 +17,7 @@
  * @package utils
  * @subpackage utils.controllers.components
  */
-class UtilsComponent extends Object {
+class UtilsComponent extends CakeObject {
 
 /**
  * Controller
