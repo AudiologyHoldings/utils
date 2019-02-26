@@ -106,7 +106,7 @@ class FormPreserverComponent extends CakeObject {
 				if (empty($this->loginAction) && !empty($Controller->Auth->loginAction)) {
 					$this->loginAction = $Controller->Auth->loginAction;
 					if (!empty($this->redirectMessage)) {
-						$Controller->Session->setFlash($this->redirectMessage);
+						$Controller->Flash->set($this->redirectMessage);
 					}
 
 					// Code from AuthComponent to store the redirect url so the user get redirected 
